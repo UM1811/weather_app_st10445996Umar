@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
         // Button to go to next page
         val enterButton = findViewById<Button>(R.id.enterButton)
         enterButton.setOnClickListener {
-            val intent = Intent(this, MainActivityScreen::class.java)
+            val intent = Intent(this, MainScreen::class.java)
             startActivity(intent)
         }
 
@@ -25,7 +25,7 @@ class MainActivity : AppCompatActivity() {
         val exitButton = findViewById<Button>(R.id.exitButton)
         exitButton.setOnClickListener {
             finish()
-        } // <-- Added the missing closing brace here
+        }
 
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
