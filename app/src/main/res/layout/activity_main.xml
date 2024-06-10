@@ -8,12 +8,64 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:id="@+id/textView"
+        android:layout_width="181dp"
+        android:layout_height="73dp"
+        android:text="Umar Mansoor ST10445996"
+        android:textAlignment="center"
+        android:textSize="25sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.071" />
 
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="weather"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.219" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="260dp"
+        android:layout_height="262dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.462"
+        app:srcCompat="@drawable/screenshot_2024_06_10_at_08_16_22" />
+
+    <Button
+        android:id="@+id/enterbutton"
+        android:layout_width="124dp"
+        android:layout_height="76dp"
+        android:text="Forecasts"
+        android:backgroundTint="@color/green"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.775" />
+
+    <Button
+        android:id="@+id/exitbutton"
+        android:layout_width="95dp"
+        android:layout_height="71dp"
+        android:text="Exit"
+        android:backgroundTint="@color/red"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.919" />
 </androidx.constraintlayout.widget.ConstraintLayout>
