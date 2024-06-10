@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/temperatureInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter daily temperatures separated by commas"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/calculateAverageButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calculate Average" />
+
+    <TextView
+        android:id="@+id/averageTemperatureTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:paddingTop="16dp" />
+
+    <Button
+        android:id="@+id/viewDetailsButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Details" />
+
+    <Button
+        android:id="@+id/clearDataButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Clear Data" />
+
+    <Button
+        android:id="@+id/exitMainButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Exit" />
+</LinearLayout>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main1Activity">
+
+    <EditText
+        android:id="@+id/DayTempEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Day 1 Temperature"
+        android:inputType="numberDecimal"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/CalculateAverageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculate Average"
+        app:layout_constraintTop_toBottomOf="@id/DayTempEditText"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/AvgTempTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Average Temperature: "
+        app:layout_constraintTop_toBottomOf="@id/CalculateAverageButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/ViewDetailsButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View Details"
+        app:layout_constraintTop_toBottomOf="@id/AvgTempTextView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/DataClearButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Clear Data"
+        app:layout_constraintTop_toBottomOf="@id/ViewDetailsButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/ExitButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Exit App"
+        app:layout_constraintTop_toBottomOf="@id/DataClearButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

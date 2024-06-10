@@ -13,6 +13,33 @@
         android:theme="@style/Theme.Weather_app_st10445996"
         tools:targetApi="31">
         <activity
+            android:name=".DetailView"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivityScreen"
+            android:exported="false" />
+        <activity
+            android:name=".detailview"
+            android:exported="false" />
+        <activity
+            android:name=".MainScreen1"
+            android:exported="false" />
+        <activity
+            android:name=".detailedview"
+            android:exported="false" />
+        <activity
+            android:name=".MainScreen"
+            android:exported="false" />
+        <activity
+            android:name=".detailed"
+            android:exported="false" />
+        <activity
+            android:name=".Main1Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Main2Activity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

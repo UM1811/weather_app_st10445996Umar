@@ -46,7 +46,7 @@
         app:srcCompat="@drawable/screenshot_2024_06_10_at_08_16_22" />
 
     <Button
-        android:id="@+id/enterbutton"
+        android:id="@+id/enterButton"
         android:layout_width="124dp"
         android:layout_height="76dp"
         android:text="Forecasts"
@@ -58,7 +58,7 @@
         app:layout_constraintVertical_bias="0.775" />
 
     <Button
-        android:id="@+id/exitbutton"
+        android:id="@+id/exitButton"
         android:layout_width="95dp"
         android:layout_height="71dp"
         android:text="Exit"
